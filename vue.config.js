@@ -39,7 +39,7 @@ module.exports = {
     // 配置代理
     proxy: {
       "/dev-api": {
-        target: "http://39.98.123.211/",
+        target: "http://gmall-h5-api.atguigu.cn",
         pathRewrite: { "^/dev-api": "" },
       },
     },
